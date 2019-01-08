@@ -13,4 +13,7 @@ let expression4 = /\d/;
 console.log("expression4", expression4.test("2"))
 console.log("expression4", expression4.test(2))
 
+let fecha = /\d\d-\d\d-\d\d\d\d/
+console.log("fecha", fecha.test('22-08-1975'))
+
 
