@@ -13,6 +13,10 @@ let expression4 = /\d*/;  //el simbolo de asterisco indica que puedo no haber ni
 console.log("expression4", expression4.test(""))
 console.log("expression4", expression4.test(255555))
 
+let expression5 = /\d+/;  //el simbolo de 'mas' indica que tiene que haber por lo menos un digito.
+console.log("expression5", expression5.test(""))
+console.log("expression5", expression5.test(255555))
+
 let fecha = /\d\d-\d\d-\d\d\d\d/
 console.log("fecha", fecha.test('22-08-1975'))
 
