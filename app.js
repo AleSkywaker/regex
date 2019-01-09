@@ -9,9 +9,9 @@ let expression3 = /[01azAz]/
 
 console.log("expression3", expression3.test("€€€"))
 
-let expression4 = /\d*/;
+let expression4 = /\d*/;  //el simbolo de asterisco indica que puedo no haber ningun digito,  o varios
 console.log("expression4", expression4.test(""))
-console.log("expression4", expression4.test(2))
+console.log("expression4", expression4.test(255555))
 
 let fecha = /\d\d-\d\d-\d\d\d\d/
 console.log("fecha", fecha.test('22-08-1975'))
