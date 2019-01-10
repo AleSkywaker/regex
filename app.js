@@ -17,6 +17,10 @@ let expression5 = /\d+/;  //el simbolo de 'mas' indica que tiene que haber por l
 console.log("expression5", expression5.test(""))
 console.log("expression5.1", expression5.test(255555))
 
+let expression6 = /\d?/;  //el simbolo de 'interrogación' indica que el digito es opcional.
+console.log("expression6", expression6.test(""))
+console.log("expression6.1", expression6.test(255555))
+
 let fecha = /\d\d-\d\d-\d\d\d\d/
 console.log("fecha", fecha.test('22-08-1975'))
 
