@@ -22,6 +22,6 @@ console.log("expression6", expression6.test(""))
 console.log("expression6.1", expression6.test(255555))
 
 let fecha = /\d\d-\d\d-\d\d\d\d/
-console.log("fecha", fecha.test('22-08-1975'))
+console.log("fecha", fecha.test('22-08-1985'))
 
 
