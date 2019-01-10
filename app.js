@@ -25,3 +25,6 @@ let fecha = /\d\d-\d\d-\d\d\d\d/
 console.log("fecha", fecha.test('22-08-1985'))
 
 
+let evaluacion = /Hola mun?do/
+console.log("evaluacion", evaluacion.test('Hola mudo'))
+
