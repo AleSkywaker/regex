@@ -12,7 +12,8 @@ let expression6 = /\d?/;  //el simbolo de 'interrogación' indica que el digito 
 
 let fecha = /\d\d-\d\d-\d\d\d\d/
 
-let evaluacion = /Hola mun?do/
+let evaluacion = /Hola mun?do/i
+console.log("evaluacion", evaluacion.test('hola mudo'))
 
 let expression7 = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{1,2}/
 console.log("expression7", expression7.test('27-06-2007 11:45'))
