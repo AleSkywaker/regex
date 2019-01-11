@@ -21,6 +21,9 @@ console.log("expression7", expression7.test('27-06-2007 11:45'))
 let expression8 = /Woo+(hoo+)+/i
 console.log("expression8", expression8.test('Wooohooohohoooooooo'))
 
+let expression9 = /\d/
+console.log(expression9.exec('Del año 1984'))
+
 
 
 
