@@ -16,13 +16,19 @@ let evaluacion = /Hola mun?do/i
 console.log("evaluacion", evaluacion.test('hola mudo'))
 
 let expression7 = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{1,2}/
-console.log("expression7", expression7.test('27-06-2007 11:45'))
+// console.log("expression7", expression7.test('27-06-2007 11:45'))
 
 let expression8 = /Woo+(hoo+)+/i
-console.log("expression8", expression8.test('Wooohooohohoooooooo'))
+// console.log("expression8", expression8.test('Wooohooohohoooooooo'))
 
-let expression9 = /\d/
+let expression9 = /\d+/
 console.log(expression9.exec('Del año 1984'))
+
+expression9.exec('Del año 1984 33').map(d=>{
+    console.log("output==>", d)
+})
+
+// console.log("Hasta 1998".match(/\d+/))
 
 
 
