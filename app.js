@@ -46,4 +46,8 @@ console.log(express12)
 console.log(express12.test("El cliente pidio pollo"))
 
 
-
+// ^ Inicio y dentro de corchetes es negación
+// $ final
+console.log("*******")
+express13 = /^Any|one$/
+console.log(express13.test("Any of you can be the next one"))
