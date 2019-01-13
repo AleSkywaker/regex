@@ -34,10 +34,10 @@ console.log("Hasta 1998".match(/\d+/)) //match
 //Con \b delimitamos el tamaño de una palabra
 express10 = /\bcat\b/
 
-console.log("falso porque debe ser cat", express10.test("categoria"))
-console.log("true porque es cat", express10.test("cat"))
+console.log(express10.test("categoria")) //no se cumple
+console.log(express10.test("cat")) // se cumple
 
-express11 = /\w{1}/
+express11 = /\w/
 
-console.log("deberia ser falso", express11.test("Hola bro"))
+console.log("deberia ser falso", express11.test("hol gol"))
 
