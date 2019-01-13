@@ -39,5 +39,11 @@ console.log(express10.test("cat")) // se cumple
 
 express11 = /\w/
 
-console.log("deberia ser falso", express11.test("hol gol"))
+// console.log(express11.test("hola Alex"))
+
+espress12 = /pollo|pizza|pescado/
+console.log(express12)
+console.log(express12.test("El cliente pidio pollo"))
+
+
 
