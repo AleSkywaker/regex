@@ -37,4 +37,7 @@ express10 = /\bcat\b/
 console.log("falso porque debe ser cat", express10.test("categoria"))
 console.log("true porque es cat", express10.test("cat"))
 
+express11 = /\w{1}/
+
+console.log("deberia ser falso", express11.test("Hola bro"))
 
