@@ -30,7 +30,11 @@ expression9.exec('Del año 1984 33').map(d=>{
 
 console.log("Hasta 1998".match(/\d+/)) //match
 
+//Limites palabras
+//Con \b delimitamos el tamaño de una palabra
+express10 = /\bcat\b/
 
-
+console.log("falso porque debe ser cat", express10.test("categoria"))
+console.log("true porque es cat", express10.test("cat"))
 
 
