@@ -8,7 +8,7 @@ let expression4 = /\d*/;  //el simbolo de asterisco indica que puedo no haber ni
 
 let expression5 = /\d+/;  //el simbolo de 'mas' indica que tiene que haber por lo menos un digito.
 
-let expression6 = /\d?/;  //el simbolo de 'interrogación' indica que el digito es opcional.
+let expression6 = /\d?/;  //el simbolo de 'interrogación' indica que el digito o caracter es opcional.
 
 let fecha = /\d\d-\d\d-\d\d\d\d/
 
