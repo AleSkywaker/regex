@@ -41,9 +41,10 @@ express11 = /\w/
 
 // console.log(express11.test("hola Alex"))
 
-express12 = /pollo|pizza|pescado/
+express12 = /^"pollo"|pizza|pescado/
 console.log(express12)
 console.log(express12.test("El cliente pidio pollo"))
+console.log(express12.test("El cliente pidio pizza"))
 
 
 // ^ Inicio y dentro de corchetes es negación
