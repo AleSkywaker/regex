@@ -55,4 +55,4 @@ console.log(express13.test("Any of you can be the next one"))
 
 var mensaje = 'El cliente pidió sushi';
 
-console.log(mensaje)
+console.log(mensaje.replace(/sushi/, "tacos"))
