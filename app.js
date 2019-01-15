@@ -54,4 +54,4 @@ express13 = /^Any|one$/
 console.log(express13.test("Any of you can be the next one"))
 
 var mensaje = 'El cliente pidió sushi y comio su sushi';
-console.log(mensaje.replace(/sushi/, "tacos"))
+console.log(mensaje.replace(/sushi/g, "tacos")) // se añade el flag g para que remplace por todas las veces que encuentre la palabra
