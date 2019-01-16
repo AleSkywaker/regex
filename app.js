@@ -53,11 +53,11 @@ console.log("*******")
 express13 = /^Any|one$/
 console.log(express13.test("Any of you can be the next one"))
 
-var mensaje = 'Elclientepidiósushiycomiosusushi';
+var mensaje = 'Elclientepidiósushiy comiosusushi';
 // se añade el flag g para que remplace por todas las veces que encuentre la palabra
 console.log(mensaje.replace(/sushi/g, "tacos")) 
 // metodo search devuelve la posicion de coincidencia
 // solo devuelve la primera coincidencia aunque uses el flag global
 console.log(mensaje.search(/\W/))//busca cualquier cosa que no sea ALFANUMERICO
-console.log(mensaje.search(/\s/))//busca cualquier caracter que no sea un espacio en blanco 
+console.log(mensaje.search(/\s/))//busca un espacio en blanco 
 
