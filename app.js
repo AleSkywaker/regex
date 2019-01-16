@@ -58,6 +58,6 @@ var mensaje = 'El cliente pidió sushi y comio su sushi';
 console.log(mensaje.replace(/sushi/g, "tacos")) 
 // metodo search devuelve la posicion de coincidencia
 // solo devuelve la primera coincidencia aunque uses el flag global
-console.log(mensaje.search(/\W/))
+console.log(mensaje.search(/\W/))//busca cualquier cosa que no sea caracter
 console.log(mensaje.search(/\s/))
 
