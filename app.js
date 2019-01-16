@@ -56,6 +56,6 @@ console.log(express13.test("Any of you can be the next one"))
 var mensaje = 'El cliente pidió sushi y comio su sushi';
 // se añade el flag g para que remplace por todas las veces que encuentre la palabra
 console.log(mensaje.replace(/sushi/g, "tacos")) 
-// metodo search 
+// metodo search devuelve la posicion de coincidencia
 console.log(mensaje.search(/\W/))
 
