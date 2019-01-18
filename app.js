@@ -70,3 +70,6 @@ console.log(coincidencias)
 console.log(expression10.lastIndex)
 
 var expression11 = /\d/g;
+console.log(expression10.exec('pedi 4 tacos y 1 agua'))
+console.log(expression10.exec('pedi 4 tacos y 1 agua'))
+
