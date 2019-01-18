@@ -61,3 +61,9 @@ console.log(mensaje.replace(/sushi/g, "tacos"))
 console.log(mensaje.search(/\W/))//busca cualquier cosa que no sea ALFANUMERICO
 console.log(mensaje.search(/\s/))//busca un espacio en blanco  si devuelve -1 quiere decir que no encontró nada.
 
+var expression10 = /y/g;
+
+var coincidencias = expression10.exec('sibr yfx sidr yhf')
+
+console.log(coincidencias)
+
