@@ -64,6 +64,9 @@ console.log(mensaje.search(/\s/))//busca un espacio en blanco  si devuelve -1 qu
 var expression10 = /y/g;
 
 console.log(expression10.lastIndex)
+
+expression10.lastIndex = 6;
+console.log(expression10.lastIndex)
 var coincidencias = expression10.exec('sibr yfx sidr yhf')
 
 console.log(coincidencias)
