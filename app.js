@@ -59,5 +59,5 @@ console.log(mensaje.replace(/sushi/g, "tacos"))
 // metodo search devuelve la posicion de coincidencia
 // solo devuelve la primera coincidencia aunque uses el flag global
 console.log(mensaje.search(/\W/))//busca cualquier cosa que no sea ALFANUMERICO
-console.log(mensaje.search(/\s/))//busca un espacio en blanco 
+console.log(mensaje.search(/\s/))//busca un espacio en blanco  si devuelve -1 quiere decir que no encontró nada.
 
