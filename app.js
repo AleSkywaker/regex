@@ -22,7 +22,7 @@ let expression8 = /Woo+(hoo+)+/i
 // console.log("expression8", expression8.test('Wooohooohohoooooooo'))
 
 let expression9 = /\d+/
-console.log(expression9.exec('Del año 1984'))  //exec
+//console.log(expression9.exec('Del año 1984'))  //exec
 
 expression9.exec('Del año 1984 33').map(d=>{
     console.log("output==>", d)
