@@ -49,9 +49,9 @@ console.log(express12.test("El cliente pidio pizza"))
 
 // ^ Inicio y dentro de corchetes es negación
 // $ final
-console.log("*******")
+//console.log("*******")
 express13 = /^Any|one$/
-console.log(express13.test("Any of you can be the next one"))
+//console.log(express13.test("Any of you can be the next one"))
 
 var mensaje = 'Elclientepidiósushiy comiosusushi';
 // se añade el flag g para que remplace por todas las veces que encuentre la palabra
