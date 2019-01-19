@@ -28,7 +28,7 @@ expression9.exec('Del año 1984 33').map(d=>{
     console.log("output==>", d)
 })  //exec
 
-console.log("Hasta 1998".match(/\d+/)) //match
+//console.log("Hasta 1998".match(/\d+/)) //match
 
 //Limites palabras
 //Con \b delimitamos el tamaño de una palabra
