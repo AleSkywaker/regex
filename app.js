@@ -35,7 +35,7 @@ expression9.exec('Del año 1984 33').map(d=>{
 express10 = /\bcat\b/
 
 //console.log(express10.test("categoria")) //no se cumple
-console.log(express10.test("cat")) // se cumple
+//console.log(express10.test("cat")) // se cumple
 
 express11 = /\w/
 
