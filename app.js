@@ -25,7 +25,7 @@ let expression9 = /\d+/
 //console.log(expression9.exec('Del año 1984'))  //exec
 
 expression9.exec('Del año 1984 33').map(d=>{
-    console.log("output==>", d)
+    //console.log("output==>", d)
 })  //exec
 
 //console.log("Hasta 1998".match(/\d+/)) //match
