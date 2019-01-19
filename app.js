@@ -34,7 +34,7 @@ expression9.exec('Del año 1984 33').map(d=>{
 //Con \b delimitamos el tamaño de una palabra
 express10 = /\bcat\b/
 
-console.log(express10.test("categoria")) //no se cumple
+//console.log(express10.test("categoria")) //no se cumple
 console.log(express10.test("cat")) // se cumple
 
 express11 = /\w/
